@@ -166,13 +166,14 @@ nav ul li a:hover{
     margin:auto;
 }
 
-.speaker h2{
+.speakers h2{
     
     text-align:center;
-    font-size:48px;
+    font-size:50px;
     font-weight:700;
     margin-bottom:60px;
     color:#111827;
+    
 }
 
 .speaker-grid{
@@ -241,3 +242,107 @@ nav ul li a:hover{
     font-size:17px;
 
 }
+
+/* pricing start */
+
+.pricing{
+    
+    padding:30px;
+    margin:auto;
+}
+
+.pricing h2{
+    
+    text-align:center;
+    font-size:50px;
+    margin:15px;
+}
+
+.pricing-sub{
+    
+    text-align:center;
+    font-siz:25px;
+    margin-bottom:30px;
+    color:#6b7280;
+}
+
+.pricing-cards{
+    
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+.price-card{
+    
+    width:280px;
+    position:relative;
+    background:#fff;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    border-radius:15px;
+    text-align:center;
+    padding: 30px 20px;
+    transition:.5s;
+    
+}
+
+.price-card h3{
+    
+    font-size:15px;
+    color:#d1d5db;
+    text-align:left;
+}
+
+.price-card h1{
+    
+    font-size:30px;
+    text-align:left;
+}
+
+.pro{
+    
+    background:#111827;
+    color:#fff;
+    
+}
+
+.price-card p{
+    
+    text-align:left;
+    color:#d1d5db;
+    margin-bottom:20px;
+}
+
+.price-card ul li{
+    
+    text-align:left;
+    margin-bottom:10px;
+    margin:15px 0px;
+    
+}
+
+.price-card button{
+    
+    width:100%;
+    padding:15px;
+    border-radius:8px;
+    font-size:16px;
+    
+}
+
+.btn-stn{
+    
+    border-color:#2563eb;
+    color:#2563eb;
+    background:white;
+}
+
+.btn-pro{
+    
+    color:white;
+    background:#2563eb;
+    border:none;
+}
+
+
