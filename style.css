@@ -322,6 +322,11 @@ nav ul li a:hover{
     
 }
 
+.price-card ul li::marker{
+    
+    color:#2563eb;
+}
+
 .price-card button{
     
     width:100%;
@@ -344,5 +349,120 @@ nav ul li a:hover{
     background:#2563eb;
     border:none;
 }
+
+/* Pricing End */
+
+/* Placeholder Start */
+
+.sponsors{
+    padding:100px 8%;
+    background:#f8fafc;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.section-header{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-header h2{
+    font-size:48px;
+    color:#111827;
+    margin-bottom:15px;
+    font-weight:700;
+}
+
+.section-header p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.7;
+    color:#6b7280;
+}
+
+.sponsors-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    margin-bottom:60px;
+}
+
+.sponsor-card{
+    background:#fff;
+    padding:35px 25px;
+    border-radius:18px;
+    text-align:center;
+    position:relative;
+    transition:.3s;
+    border:1px solid #e5e7eb;
+}
+
+.logo-box{
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:25px 0;
+}
+
+.logo-box img{
+    max-width:170px;
+    max-height:70px;
+    object-fit:contain;
+}
+
+.sponsor-card h3{
+    font-size:24px;
+    color:#111827;
+    font-weight:600;
+}
+
+.badge{
+    position:absolute;
+    top:18px;
+    right:18px;
+    padding:7px 16px;
+    border-radius:50px;
+    color:#fff;
+    font-size:13px;
+    font-weight:600;
+}
+
+.platinum{
+    background:#2563eb;
+}
+
+.gold{
+    background:#f59e0b;
+}
+
+.silver{
+    background:#6b7280;
+}
+
+.register-btn{
+    display:block;
+    width:max-content;
+    margin:auto;
+    padding:16px 34px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:17px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+/* Placeholder End */
 
 
